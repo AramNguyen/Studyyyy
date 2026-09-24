@@ -62,7 +62,7 @@ df['numeric_col'] = df['numeric_col'].fillna(median_val)
 * Step 2: Overwrite the rest of attributes by “Others” and fill the missing gap by “Unknown”. By that way, we aren't afraid of the high dimensionality.
 
 ```
-# The syntax[cite: 4]:
+# The syntax:
 df['colum'] = df['column'].fillna('Unknown')[cite: 4]
 
 # encode categorical data
